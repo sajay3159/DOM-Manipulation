@@ -20,9 +20,17 @@
 // thanksDiv.appendChild(paragraph);
 
 // getElementByClassName
-let fruitClass = document.getElementsByClassName("fruit");
-fruitClass[2].style.backgroundColor = "yellow";
+// let fruitClass = document.getElementsByClassName("fruit");
+// fruitClass[2].style.backgroundColor = "yellow";
 
-for (let i = 0; i < fruitClass.length; i++) {
-  fruitClass[i].style.fontWeight = "bold";
+// for (let i = 0; i < fruitClass.length; i++) {
+//   fruitClass[i].style.fontWeight = "bold";
+// }
+
+// getElementsByTagName
+let tagName = document.getElementsByTagName("li");
+tagName[4].style.color = "blue";
+
+for (let i = 0; i < tagName.length; i++) {
+  tagName[i].style.fontStyle = "italic";
 }
