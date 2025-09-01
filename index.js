@@ -1,19 +1,28 @@
 // Write your code below:
-const mainHeading = document.getElementById("main-heading");
-mainHeading.textContent = "Fruit World";
+// getElementById
+// const mainHeading = document.getElementById("main-heading");
+// mainHeading.textContent = "Fruit World";
 
-mainHeading.style.color = "orange";
+// mainHeading.style.color = "orange";
 
-const headerDiv = document.getElementById("header");
-headerDiv.style.backgroundColor = "green";
+// const headerDiv = document.getElementById("header");
+// headerDiv.style.backgroundColor = "green";
 
-headerDiv.style.borderBottom = "4px solid orange";
+// headerDiv.style.borderBottom = "4px solid orange";
 
-const basketHeading = document.getElementById("basket-heading");
-basketHeading.style.color = "green";
+// const basketHeading = document.getElementById("basket-heading");
+// basketHeading.style.color = "green";
 
-const thanksDiv = document.getElementById("thanks");
-const paragraph = document.createElement("p");
+// const thanksDiv = document.getElementById("thanks");
+// const paragraph = document.createElement("p");
 
-paragraph.textContent = "Please visit us again";
-thanksDiv.appendChild(paragraph);
+// paragraph.textContent = "Please visit us again";
+// thanksDiv.appendChild(paragraph);
+
+// getElementByClassName
+let fruitClass = document.getElementsByClassName("fruit");
+fruitClass[2].style.backgroundColor = "yellow";
+
+for (let i = 0; i < fruitClass.length; i++) {
+  fruitClass[i].style.fontWeight = "bold";
+}
